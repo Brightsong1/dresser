@@ -48,20 +48,22 @@ The bot allows users to:
 
 ### Installation
 
-1. **Clone the Repository**:
+1. Clone the repository:
    ```bash
    git clone <repository_url>
    cd <repository_name>
 
 
-Install Dependencies:
+Install dependencies:
 pip install -r requirements.txt
+
 
 Note: Install Playwright browsers separately if needed:
 playwright install
 
 
-Set Up API Keys:
+
+Set up API keys:
 
 Create a key.py file in the project root with:TOKEN = "your_telegram_bot_token"
 OPENAI_API_KEY = "your_openai_api_key"
@@ -79,7 +81,7 @@ export PIKA_PASSWORD="your_pika_password"
 
 
 
-Run the Bot:
+Run the bot:
 python bot.py
 
 
@@ -90,7 +92,7 @@ Start the bot in Telegram by sending /start.
 Send one or more photos with an optional caption.
 The bot will:
 Process the photos and generate enhanced images for each scene.
-Show you the generated and enhanced images.
+Display the generated and enhanced images.
 Create and send a video based on the images and caption.
 
 
